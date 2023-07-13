@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,400;1,900&family=Oswald:wght@700&display=swap" rel="stylesheet');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #01579B;
+}
+
+a, a:hover, a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.red-box {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.app-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: .75;
+}
+.header {
+    background-color: #01579B;
+    padding: 10px 0 10px;
+    height: 90px;
+}
+.footer {
+    background-color: #01579B;
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #333333;
+    height: 50px;
+}
+.footer-note {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+}
